@@ -26,6 +26,9 @@ A complete web-based Student Management System built with **Spring Boot** backen
 ![Spring Boot Embedded](https://img.shields.io/badge/Spring_Boot_Embedded-Tomcat-green?style=flat-square)
 
 
+
+
+
 <div>
 ## 📁 Project Structure
 StudentManagementSystem/
@@ -51,6 +54,10 @@ StudentManagementSystem/
 └── README.md
 </div>
 
+
+
+
+
 <div> 
 ## 🎯 Key Features
 
@@ -61,6 +68,10 @@ StudentManagementSystem/
 - ✅ Delete student records
  </div>
 
+
+
+
+
 <div>
 ### **User Interface**
 - 🎨 Responsive JSP pages with Bootstrap
@@ -68,6 +79,10 @@ StudentManagementSystem/
 - ⚡ Fast page loading
 - 🔄 Form validation with JavaScript
 </div>
+
+
+
+
 
 <div>
 ## 🔧 Installation & Setup
@@ -81,6 +96,10 @@ StudentManagementSystem/
 ### **Steps to Run**
 </div>
 
+
+
+
+
 <div>
 1. **Clone the repository**
    ```bash
@@ -92,6 +111,10 @@ CREATE DATABASE student_management;
 Configure application.properties
 </div>
 
+
+
+
+
 <div>
 properties
 spring.datasource.url=jdbc:mysql://localhost:3306/student_management
@@ -102,6 +125,10 @@ server.port=8080
 Build and Run
 </div>
 
+
+
+
+
 <div>
 bash
 mvn clean install
@@ -111,6 +138,11 @@ Access Application
 http://localhost:8080
 </div>
 
+
+
+
+
+<div>
 📊 Application Flow
 MVC Architecture
 Browser Request → Spring Controller → Service Layer → Repository → Database
@@ -118,12 +150,20 @@ Browser Request → Spring Controller → Service Layer → Repository → Datab
 JSP View ← Model Data ← Spring Controller ← Service Layer
 </div>
 
+
+
+
+
 <div>
 Key JSP Pages
 index.jsp - Homepage with navigation
 student-list.jsp - Display all students
 student-form.jsp - Add/Edit student form
 </div>
+
+
+
+
 
 <div>
 🚀 API Endpoints
@@ -136,6 +176,10 @@ POST	/students	Update student	Redirect to list
 GET	/students/delete/{id}	Delete student	Redirect to list
 </div>
 
+
+
+
+
 <div>
 🎨 UI Features
 Responsive Design - Works on all devices
@@ -145,6 +189,10 @@ Navigation Menu - Easy page navigation
 Data Tables - Organized student listing
 </div>
 
+
+
+
+
 <div>
 👨‍💻 Developer
 Md. Amanullah Islam
@@ -153,6 +201,10 @@ Full Stack Java Developer
 🔗 GitHub: amanullah435islam
 🔗 LinkedIn: Md. Amanullah Islam
 </div>
+
+
+
+
 
 <div align="center">
 ⭐ Star this repository if you find it helpful!
